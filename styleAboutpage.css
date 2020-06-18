@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 
-/* add this*/
+
 .ul__links li a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
