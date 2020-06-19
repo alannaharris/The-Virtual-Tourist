@@ -53,11 +53,13 @@
 }
 
 .logo img {
-    float: right;
+    float: left;
     margin-top: -7px; 
     margin-right: 48px;
     margin-left: 50px;
 }
+
+
 
 .subscribe-btn {
     top: 40px;
@@ -276,26 +278,3 @@
     color: #ffffff;
 
 }
-
- 
-/* map */
-.inspire {
-    text-align: center;
-    margin: 50px;
-}
-.inspire h3 {
-    color: white;
-    font-size: 30px;
-    padding-top: 20px;
-}
- 
-.inspire p {
-    color: gray;
-    font-size: 20px;
-}
-
-.map img {
-    margin-top: 30px;
-    margin-left: 200px;
-}
-
