@@ -84,7 +84,218 @@
 
 .subscribe-btn span {
     display: block;
-    padding: 8px 22px;
+    padding: 10px 22px;
 }
 
+
+/* styling amazing virtual tour*/
+
+.amazing{
+    margin-top: 60px;
+   
+}
+.amazing h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px; 
+    
+}
+
+.amazing p{
+    text-align: center;
+    font-size: 15px;
+    color:gray;
+    padding: 5px 0 10px 0;
+    line-height: 25px;
+    
+}
+
+/* citites gallery*/
+.cities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.cities h2 {
+    background: rgb(0,0,0);
+    /* background: rgba(255, 254, 254, 0.685);
+    color: black; */
+    background: rgba(0, 0, 1, 0.5);
+    color: white;
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    border: gray;
+    border-width: 5px;
+}
+
+/* adding "a" here*/
+.cities h2 a:hover {
+    text-decoration: underline;
+    color: #0088a9;
+}
+
+.cities img {
+    padding: 20px;
+}
+
+/*london*/
+.londonhome {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+ 
+.londonhome > h2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* text decoration none for "a" */
+.londonhome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+/* Oslo */
+ 
+.oslohome {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+ 
+.oslohome > h2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* text decoration none for "a" */
+.oslohome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+ 
+/* budapest */
+ 
+.budahome {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+ 
+.budahome > h2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* text decoration none for "a" */
+.budahome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+ 
+/* cologne */
+.colognehome {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+ 
+.colognehome > h2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ /* text decoration none for "a" */
+.colognehome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+/* Amsterdam */
+ 
+.amhome {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+ 
+.amhome > h2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* text decoration none for "a" */
+.amhome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+ 
+/* Berlin*/
+ 
+.berlinhome {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+ 
+.berlinhome > h2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* text decoration none for "a" */
+.berlinhome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+ 
+/* map */
+.inspire {
+    text-align: center;
+    margin: 50px;
+}
+.inspire h3 {
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+ 
+.inspire p {
+    color: gray;
+    font-size: 20px;
+}
+
+.map img {
+    margin-top: 30px;
+    margin-left: 200px;
+}
 

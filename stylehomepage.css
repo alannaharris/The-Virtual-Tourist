@@ -147,7 +147,8 @@ margin-left: 150px;
 .subscribe-btn span {
     display: block;
     padding: 10px 22px;
-    /*padding-top: 20px;
+    /* (without this it looks the same in every pages) 
+    padding-top: 20px;
     padding-bottom: 20px;*/ 
 }
 
