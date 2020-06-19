@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 
-/* add this*/
+
 .ul__links li a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
@@ -55,7 +55,7 @@
 .ul__links li a:hover {
     color: #0088a9;     
 }
-/* until here */
+
 
 
 .page-name ul{
@@ -78,12 +78,14 @@ margin: 50px;
     margin-left: 50px;
 }
 
+
 .name{
     display: inline;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    font-weight: bold;
+    /*font-family: 'Courier New', Courier, monospace;*/
+    /*font-size: 20px;*/
+    /*font-weight: bold;*/
 }
+
 
 .banner {
     color: #ffffff;
