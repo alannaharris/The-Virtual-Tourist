@@ -81,10 +81,12 @@ margin: 50px;
 
 .name{
     display: inline;
-    /*font-family: 'Courier New', Courier, monospace;*/
+    /* (ths was for the title)
+    font-family: 'Courier New', Courier, monospace;*/ 
     /*font-size: 20px;*/
-    /*font-weight: bold;*/
+    /*font-weight: bold;*/ 
 }
+
 
 
 .banner {
@@ -132,7 +134,7 @@ margin-left: 150px;
     background-clip: content-box, border-box;
 }
 
-/* Add this*/
+
 .subscribe-btn {
     margin-right: 50px;
     transition: all 0.3s ease 0s;
@@ -141,12 +143,14 @@ margin-left: 150px;
 .subscribe-btn:hover{
     background-color: rgba(0, 136, 169, 0.8);
 }
-/*until here*/ 
+
 .subscribe-btn span {
+    display: block;
     padding: 10px 22px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/ 
 }
+
 
 
 /* city icons*/
