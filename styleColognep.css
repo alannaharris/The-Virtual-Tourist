@@ -87,3 +87,138 @@
     display: block;
     padding: 10px 22px;
 }
+
+
+/* header */
+
+.head {
+    color: white;
+    font-size: 40px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+} 
+
+.head img {
+    position: absolute;
+    margin-top: 40px;
+}
+
+.head h1 {
+    position: relative;
+    background: rgb(0,0,0);
+    background: rgba(0, 0, 1, 0.5);
+    width: 100%;
+    margin-bottom: 30px;
+} 
+
+/* intro video */
+
+.video {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+} 
+
+/* page content */
+
+.citytour h2 {
+    padding: 20px;
+}
+
+.citytour p {
+    width: 800px;
+}
+
+.intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.kolsch {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px
+}
+
+/* .history {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+} */
+
+.hist {
+    background: rgb(0,0,0);
+    background: rgba(0, 0, 1, 0.5);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.dom {
+    text-align: center;
+    color: white;
+    padding: 20px
+}
+.cath {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cathtext {
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-items: space-evenly;
+}
+
+
+.cathtext p {
+    font-size: 20px;
+    background: rgb(0,0,0);
+    background: rgba(255, 254, 254, 0.685);
+    color: black;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    text-align: center;
+
+}
+
+
+.timeride {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.timeride p h2 {
+    width: 50%;
+}
+
+.muse img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
