@@ -87,3 +87,32 @@
     display: block;
     padding: 10px 22px;
 }
+
+/*styling berlin image */
+.responsive {
+    width: 100%;
+    height: auto;
+   
+}
+
+.video{
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.intro{
+    text-align:center;
+    color: grey;
+    line-height: 0,8px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
+}
+
