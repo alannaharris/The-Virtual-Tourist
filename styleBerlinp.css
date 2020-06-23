@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -99,15 +101,17 @@
     text-align: center;
 }
 
-h2{
+h1{
     color: white;
     text-align: center;
     padding-bottom: 30px;
     padding-top: 50px;
+    font-size: 40px;
+    font-family:Merriweather, serif;
 }
 
 .body{
-    color: grey;
+    color: rgb(41, 40, 40);
     padding-bottom: 50px;
     padding-top: 50px;
     padding-left: 200px;
@@ -115,11 +119,16 @@ h2{
     text-align: justify;
     letter-spacing: 0.8px;
     line-height: 1.8;
+    font-family: Merriweather, serif;
+
+
+    
     
 }
 
 .image{
 text-align: center;
+padding-top: 20px;
 
 }
 
