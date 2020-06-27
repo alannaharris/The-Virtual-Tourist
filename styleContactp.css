@@ -5,8 +5,13 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+}
 
-
+/*Media queries*/
+@media only screen and (max-width: 500px){
+    .responsive {
+    width: 100%;
+    }
 }
 
 
@@ -18,11 +23,8 @@
 }
 
 
-@media only screen and (max-width: 500px){
-    .responsive {
-    width: 100%;
-    }
-}
+
+
 
 .main {
     background-color: lightblue;
@@ -179,3 +181,4 @@ textarea.contact-form-text{
 .contact-form-btn:hover{
     background: #0d3f9b;
 }
+
