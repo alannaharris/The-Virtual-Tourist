@@ -256,13 +256,13 @@
 
 }
 
+.foot a {
+    color: white;
+}
 .foot:hover a {
     color: lightblue; 
 }
 
-.foot a {
-    color: white;
-}
 
 .social {
     display: flex;
