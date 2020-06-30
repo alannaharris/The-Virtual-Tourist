@@ -4,27 +4,63 @@
         <title>Contact</title>
         <link href="styleContactp.css" rel="stylesheet">
 
-        
-
+        <!--Viewport-->
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+       <!--kit code from font awesome-->
+       <script src="https://kit.fontawesome.com/084ef981fa.js"></script>
     </head>
+
 <body class="main">
+<nav>
+
     <div class="container">
+
         <div class="menu">
+            <!--checkbtn-->
+            <input type="checkbox" id="check">
+               <label for="check" class="checkbtn">
+                  <!--Icon from font awesome-->
+                   <i class="fas fa-bars"></i>
+               </label>
+               
+            <label class="logo"><img src="globe.gif"></label>
+            <!--<div class="logo"><img src="globe.gif"></div>-->
+
+           <!--Subscribe btn <button type="button" ></button>
+           <div class="subscribe-btn"><span>Subscribe</span><a href="subscribe.html"></a></div>
+           -->
+            
+            
+            <!---->
             <ul class="ul_links">
-                <li class="logo"><img src="globe.gif"></li>
-                <li> <a href="index.html">Home</a></li>
+                <li> <a  class="active" href="index.html">Home</a></li>
                 <li> <a href="citiespage.html">Cities</a></li>
                 <li> <a href="mapepage.html">Map</a></li>
                 <li> <a href="Aboutpage.html">About</a></li>
                 <li> <a href="Contactpage.html">Contact</a></li>
-                <li><a href="subscribe.html" class="subscribe-btn"><span>Subscribe</span></a></li>
             </ul>
         </div>
+
     </div>
+</nav>
+
+
+
 
     <article>
-        <div class="contact"><h3>Get in touch with us</h3>
-            <!--<p> here bla bla  </p>-->
+        <div class="contact-section">
+
+            <h1>Get in touch with us</h1>
+           <div class="border"></div>
+
+        <form class="contact-form" action="Contactpage.html" method="post">
+            <input type="text" class="contact-form-text" placeholder="Your name">
+            <input type="text" class="contact-form-text" placeholder="Country">
+            <input type="email" class="contact-form-text" placeholder="Your email">
+            <textarea class="contact-form-text" placeholder="Your message"></textarea>
+            <input type="submit" class="contact-form-btn" value="Send">
+
+            </form>
         </div>
     </article>
     

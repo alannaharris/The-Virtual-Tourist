@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -39,6 +41,7 @@
     margin: 0 20px;
     color: #ffffff;
     cursor: pointer;
+    font-size: 18px;
 }
 
 
@@ -87,3 +90,43 @@
     display: block;
     padding: 10px 22px;
 }
+
+/*styling berlin image */
+.responsive {
+    width: 100%;
+    height: auto;
+   
+}
+
+.video{
+    text-align: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    font-size: 40px;
+    font-family:Merriweather, serif;
+}
+
+.body{
+    color: rgb(41, 40, 40);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
+    letter-spacing: 0.8px;
+    line-height: 1.8;
+    font-family: Merriweather, serif;
+
+}
+
+.image{
+text-align: center;
+padding-top: 20px;
+
+}
+
