@@ -200,7 +200,7 @@ margin-left: 150px;
 }
 
 .cities h2:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: #0088a9;
 }
 
@@ -223,20 +223,33 @@ margin-left: 150px;
     justify-content: center;
 }
 
-/* madrid */
+/* text decoration none for "a" */
+.londonhome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+/* Oslo */
  
-.madridhome {
+.oslohome {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center
 }
  
-.madridhome > h2 {
+.oslohome > h2 {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* text decoration none for "a" */
+.oslohome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
 }
  
 /* budapest */
@@ -254,6 +267,13 @@ margin-left: 150px;
     align-items: center;
     justify-content: center;
 }
+
+/* text decoration none for "a" */
+.budahome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
  
 /* cologne */
 .colognehome {
@@ -269,7 +289,12 @@ margin-left: 150px;
     align-items: center;
     justify-content: center;
 }
- 
+ /* text decoration none for "a" */
+.colognehome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
 /* Amsterdam */
  
 .amhome {
@@ -285,20 +310,35 @@ margin-left: 150px;
     align-items: center;
     justify-content: center;
 }
+/* text decoration none for "a" */
+.amhome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
  
-.brishome {
+/* Berlin*/
+ 
+.berlinhome {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center
 }
  
-.brishome > h2 {
+.berlinhome > h2 {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* text decoration none for "a" */
+.berlinhome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
  
 /* map */
 .inspire {
