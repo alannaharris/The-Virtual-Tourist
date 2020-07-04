@@ -35,7 +35,9 @@
 .menu ul {
     display: inline-flex;
     margin: 50px;
-    padding-left: 75px;
+    padding-left: 75px; 
+    float: right;
+  
 }
 
 .menu ul li {
@@ -45,6 +47,8 @@
     color: #ffffff;
     cursor: pointer;
     font-size: 18px;
+    line-height: 40px;
+
 }
 
 
@@ -78,7 +82,7 @@
     width: 40px;
     margin-top: -7px; 
     margin-right: 48px;
-    margin-left: 0px;
+    margin-left: 50px;
 }
 .name {
     display: inline;
@@ -87,9 +91,42 @@
     font-weight: bold;
 }
 
+.banner{
+    color: #ffffff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.picture {
+    display: flex;
+    width: 100%;
+    margin-left: 350px;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.text {
+margin-top: 60px;
+margin-left: 150px;
+}
+
+.text h1 {
+    font-size: 43px;
+    width: 500px;
+}
+
+.text p {
+    width: 500px;
+    font-size: 15px;
+    padding: 30px 0 30px 0;
+    line-height: 25px;
+    color:gray;
+}
+
+
 .subscribe-btn {
-    top: 40px;
-    right: 80px;
     position: absolute;
     text-decoration: none;
     color: #ffffff;
@@ -112,52 +149,6 @@
 
 
 
-.banner {
-    color: #ffffff;
-    display: inline-flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.picture {
-    display: flex;
-    width: 100%;
-    margin-left: 350px;
-    margin-top: -100px;
-}
-
-.text {
-margin-top: 60px;
-margin-left: 150px;
-}
-
-.text h1 {
-    font-size: 43px;
-    width: 500px;
-}
-
-.text p {
-    width: 500px;
-    font-size: 15px;
-    padding: 30px 0 30px 0;
-    line-height: 25px;
-    color:gray;
-}
-
-
-
-
-.subscribe-btn {
-    position: absolute;
-    text-decoration: none;
-    color: #ffffff;
-    border: 2px solid transparent;
-    border-radius: 20px;
-    background-image: linear-gradient(#ADD8E6,#ADD8E6), radial-gradient(circle at top left,#00008B,#008B8B);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-}
-
 
 .subscribe-btn {
     margin-right: 50px;
@@ -171,9 +162,7 @@ margin-left: 150px;
 .subscribe-btn span {
     display: block;
     padding: 10px 22px;
-    /* (without this it looks the same in every pages) 
-    padding-top: 20px;
-    padding-bottom: 20px;*/ 
+
 }
 
 
