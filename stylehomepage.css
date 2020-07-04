@@ -63,26 +63,26 @@
 }
 
 
-/*Page name*/
+
 .page-name ul {
-    display: inline-flex: right;
+    display: inline-flex, right;
     margin: 50px;
 }
+
+
 
 .page-name ul li {
     list-style: none;
     float: left;
     margin: 0 20px;
-    color: #ffffff;
-    cursor: pointer;
+
+    
+    
 }
 
 .logo img {
-    float: left
-    width: 40px;
-    margin-top: -7px; 
-    margin-right: 48px;
-    margin-left: 50px;
+    align-items: flex-start;
+    margin-right: 120px;
 }
 .name {
     display: inline;
@@ -102,9 +102,8 @@
 .picture {
     display: flex;
     width: 100%;
-    margin-left: 350px;
     margin-top: -100px;
-    margin-left: 100px;
+    margin-left: 350px;
 }
 
 .text {
@@ -323,5 +322,6 @@ margin-left: 150px;
 .map img {
     margin-top: 30px;
     margin-left: 200px;
+    cursor: pointer;
 }
 
