@@ -93,23 +93,47 @@
 
 /*styling berlin image */
 .responsive {
+    color: white;
+    font-size: 70px;
+    height: 600px;
     width: 100%;
-    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px; 
    
 }
 
-.video{
-    text-align: center;
+.responsive image{
+    position: absolute;
+    margin-top: 40px;
+}
+/* text*/
+
+.bigtext {
+position: absolute;
+width: 100%;
+margin-bottom: 30px;
 }
 
-h1{
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2 {
     color: white;
     text-align: center;
     padding-bottom: 30px;
     padding-top: 50px;
     font-size: 40px;
-    font-family:Merriweather, serif;
+    font-family: serif;
 }
+
+
 
 .body{
     color: rgb(41, 40, 40);
