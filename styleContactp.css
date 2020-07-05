@@ -230,7 +230,7 @@ label.logo img {
 }
 
 .contact-form-text:hover{
-    box-shadow: 0 0 10px 4px #e5f31e;
+    box-shadow: 0 0 10px 4px rgba(0, 136, 169, 0.8);
 
     }
 
@@ -255,7 +255,7 @@ textarea.contact-form-text{
 }
 
 .contact-form-btn:hover{
-    background:#e5f31e;
+    background:rgba(9, 101, 124, 0.8);
 }
 
 
