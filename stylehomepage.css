@@ -62,7 +62,10 @@
     color: #0088a9;     
 }
 
-
+a.active, a:hover{
+    transition: .5s;
+    color: #0088a9;
+}
 
 .page-name ul {
     display: inline-flex, right;
