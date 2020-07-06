@@ -33,15 +33,17 @@
 }
 
 .menu ul {
-    display: inline-flex;
-    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+    background: rgb(0, 136, 169, 0.8);
+    
 }
 
 .menu ul li {
     list-style: none;
-    float:right;
-    margin: 0 20px;
-    color: #ffffff;
     cursor: pointer;
 }
 
@@ -53,58 +55,46 @@
 }
 
 .ul__links li a:hover {
-    color: #0088a9;     
+    /* color: #0088a9;      */
+    color:lightblue;
+    text-decoration: underline;
 }
 
 
-/*Page name*/
-.page-name ul{
-display: inline-flex right;
-margin: 50px;
-}
+/* page name*/
 
-.page-name ul li {
+.pagename ul li {
     list-style: none;
     float: left;
-    margin: 0 20px;
     color: #ffffff;
     cursor: pointer;
-}
-
-.logo img {
-    float: left;
-    margin-top: -7px;
-    margin-right: 48px;
-    margin-left: 50px;
 }
 
 
 .name{
     display: inline;
-    /* (ths was for the title of the page alone)
-    font-family: 'Courier New', Courier, monospace;*/ 
-    /*font-size: 20px;*/
-    /*font-weight: bold;*/ 
 }
 
 
 
 .banner {
     color: #ffffff;
-    display: inline-flex;
+    /* display: inline-flex;
     justify-content: center;
-    align-items: flex-start;
-}
-
-.picture {
+    align-items: flex-start; */
     display: flex;
-    width: 100%;
-    margin-left: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .text {
-margin-top: 60px;
-margin-left: 150px;
+margin-top: 20px;
+text-align: center;
+display: flex;
+justify-items: center;
+align-items: center;
+flex-direction: column;
 }
 
 .text h1 {
@@ -121,10 +111,8 @@ margin-left: 150px;
 }
 
 
-
-
 .subscribe-btn {
-    position: absolute;
+    /* position: absolute; */
     text-decoration: none;
     color: #ffffff;
     border: 2px solid transparent;
@@ -136,7 +124,6 @@ margin-left: 150px;
 
 
 .subscribe-btn {
-    margin-right: 50px;
     transition: all 0.3s ease 0s;
 }
 
@@ -152,6 +139,13 @@ margin-left: 150px;
     padding-bottom: 20px;*/ 
 }
 
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
 
 
 /* city icons*/
@@ -315,5 +309,37 @@ margin-left: 150px;
 .map img {
     margin-top: 30px;
     margin-left: 200px;
+}
+
+
+/* footer */
+
+.footerlinks {
+    background-color: rgba(0, 136, 169, 0.8);
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.foot a {
+    color: white;
+}
+.foot:hover a {
+    color: lightblue; 
+}
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
