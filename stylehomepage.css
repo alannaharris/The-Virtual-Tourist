@@ -126,10 +126,15 @@
 .banner{
     color: #ffffff;
 
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
 
 }
 
@@ -157,6 +162,7 @@ flex-direction: column;
 
 
 .subscribe-btn {
+    /* position: absolute */
     text-decoration: none;
     color: #ffffff;
     border: 2px solid transparent;
@@ -167,13 +173,6 @@ flex-direction: column;
 }
 
 
-.name{
-    display: inline;
-    /* (ths was for the title of the page alone)
-    font-family: 'Courier New', Courier, monospace;*/ 
-    /*font-size: 20px;*/
-    /*font-weight: bold;*/ 
-}
 
 .subscribe-btn {
     transition: all 0.3s ease 0s;
@@ -188,6 +187,7 @@ flex-direction: column;
     padding: 10px 22px;
 
 
+    
 .picture {
     display: flex;
     justify-content: center;
@@ -195,10 +195,14 @@ flex-direction: column;
     width: 100%;
     padding: 20px;
 
-}
+} 
+
 
 
 /* city icons*/
+
+
+
 
 .pop {
     color: white;
@@ -267,7 +271,7 @@ flex-direction: column;
     color: #ffffff;
 
 }
-/* Oslo */
+/* berlin */
  
 
 .berlinhome {
@@ -288,7 +292,7 @@ flex-direction: column;
 }
 
 /* text decoration none for "a" */
-.oslohome h2 a {
+.berlinhome h2 a {
     text-decoration: none;
     color: #ffffff;
 
@@ -353,6 +357,12 @@ flex-direction: column;
     justify-content: center;
 }
 
+/* text decoration none for "a" */
+.amhome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
 
 /* oslo */
  
@@ -373,7 +383,7 @@ flex-direction: column;
     justify-content: center;
 }
 /* text decoration none for "a" */
-.berlinhome h2 a {
+.oslohome h2 a {
     text-decoration: none;
     color: #ffffff;
 
