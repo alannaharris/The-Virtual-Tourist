@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -113,7 +114,9 @@
     margin: 0 20px;
     color: #ffffff;
     cursor: pointer;
+
 } */
+
 
 
 /* .ul_links li a{
@@ -136,7 +139,7 @@
 
 .subscribe-btn {
     top: 40px;
-    right: 80px;
+    right: 20px;
     position: absolute;
     text-decoration: none;
     color: #ffffff;
@@ -161,6 +164,7 @@
     display: block;
     padding: 10px 22px;
 }
+
 
 /* header */
 
@@ -193,9 +197,11 @@
 /* intro video */
 
 .video {
+
     display: flex;
     justify-content: center;
     align-items: center;
+
 } 
 
 /* page content */
@@ -348,6 +354,7 @@
     align-items: center;
     padding: 10px;
 }
+
 
 
 

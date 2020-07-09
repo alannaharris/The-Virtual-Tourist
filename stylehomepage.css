@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 
 
@@ -33,6 +33,7 @@
 }
 
 .menu ul {
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -40,11 +41,15 @@
     margin: 40px;
     background: rgb(0, 136, 169, 0.8);
     
+
 }
 
 .menu ul li {
     list-style: none;
     cursor: pointer;
+    font-size: 18px;
+    line-height: 40px;
+
 }
 
 
@@ -85,6 +90,7 @@
     align-items: left;
 }
 
+
 .dropcontent a {
     color: rgb(0, 136, 169, 0.8);
     padding: 20px;
@@ -114,16 +120,17 @@
 
 .name{
     display: inline;
+
 }
 
-
-
-.banner {
+.banner{
     color: #ffffff;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .text {
@@ -160,6 +167,14 @@ flex-direction: column;
 }
 
 
+.name{
+    display: inline;
+    /* (ths was for the title of the page alone)
+    font-family: 'Courier New', Courier, monospace;*/ 
+    /*font-size: 20px;*/
+    /*font-weight: bold;*/ 
+}
+
 .subscribe-btn {
     transition: all 0.3s ease 0s;
 }
@@ -171,10 +186,7 @@ flex-direction: column;
 .subscribe-btn span {
     display: block;
     padding: 10px 22px;
-    /* (without this it looks the same in every pages) 
-    padding-top: 20px;
-    padding-bottom: 20px;*/ 
-}
+
 
 .picture {
     display: flex;
@@ -182,6 +194,7 @@ flex-direction: column;
     align-items: center;
     width: 100%;
     padding: 20px;
+
 }
 
 
@@ -217,11 +230,13 @@ flex-direction: column;
     border-width: 5px;
 }
 
+
 .cities a {
     color: white;
 }
 .cities a:hover {
     text-decoration: underline;
+
     color: #0088a9;
     
 }
@@ -246,20 +261,37 @@ flex-direction: column;
     justify-content: center;
 }
 
-/* madrid */
+/* text decoration none for "a" */
+.londonhome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+/* Oslo */
  
+
 .berlinhome {
+
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center
 }
  
+
 .berlinhome > h2 {
+
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* text decoration none for "a" */
+.oslohome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
 }
  
 /* budapest */
@@ -277,6 +309,13 @@ flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+/* text decoration none for "a" */
+.budahome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
  
 /* cologne */
 .colognehome {
@@ -292,7 +331,12 @@ flex-direction: column;
     align-items: center;
     justify-content: center;
 }
- 
+ /* text decoration none for "a" */
+.colognehome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
 /* Amsterdam */
  
 .amhome {
@@ -309,21 +353,32 @@ flex-direction: column;
     justify-content: center;
 }
 
+
 /* oslo */
  
 .oslohome {
+
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center
 }
  
+
 .oslohome > h2 {
+
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* text decoration none for "a" */
+.berlinhome h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
  
 /* map */
 .inspire {
@@ -347,6 +402,7 @@ flex-direction: column;
 .map img {
     margin-top: 30px;
     margin-left: 200px;
+    cursor: pointer;
 }
 
 
