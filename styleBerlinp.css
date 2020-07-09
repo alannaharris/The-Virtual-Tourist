@@ -200,3 +200,53 @@ h2 {
 
 }
 
+
+.backbtn {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#ADD8E6,#ADD8E6), radial-gradient(circle at top left,#00008B,#008B8B);
+    background-origin: border-box;
+    background-clip: content-box, border-box; 
+}
+
+.backbtn a {
+    padding: 20px;
+}
+
+.footerlinks {
+    background-color: rgba(0, 136, 169, 0.8);
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.foot a {
+    color: white;
+}
+.foot:hover a {
+    color: lightblue; 
+}
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+
