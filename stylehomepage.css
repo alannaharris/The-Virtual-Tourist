@@ -60,6 +60,47 @@
     text-decoration: underline;
 }
 
+/* nav dropdown menus */
+
+.dropnav {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    padding: 20px;
+    z-index: 1;
+
+}
+
+.dropnav:hover .dropcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.dropcontent a {
+    color: rgb(0, 136, 169, 0.8);
+    padding: 20px;
+}
+
+.drop {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.drop:hover a {
+    background-color: lightblue;
+    width: 100%;
+    
+}
+
 
 /* page name*/
 
@@ -79,9 +120,6 @@
 
 .banner {
     color: #ffffff;
-    /* display: inline-flex;
-    justify-content: center;
-    align-items: flex-start; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +150,6 @@ flex-direction: column;
 
 
 .subscribe-btn {
-    /* position: absolute; */
     text-decoration: none;
     color: #ffffff;
     border: 2px solid transparent;
@@ -186,6 +223,7 @@ flex-direction: column;
 .cities a:hover {
     text-decoration: underline;
     color: #0088a9;
+    
 }
 
 .cities img {
