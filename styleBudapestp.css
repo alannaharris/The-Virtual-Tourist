@@ -156,7 +156,7 @@
 
 .site {
     text-align: center;
-    color: white;
+    color: black;
     padding: 20px;
     margin-top: 40px;
 
@@ -172,7 +172,6 @@
 }
 
 .sitetext {
-    position: relative;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -185,11 +184,11 @@
     background: rgba(255, 254, 254, 0.685);
     color: black;
     display: flex;
-    position: absolute;
     align-items: center;
     justify-content: center;
     width: 450px;
     text-align: center;
+    padding: 20px;
 
 }
 
