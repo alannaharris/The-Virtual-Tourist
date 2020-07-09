@@ -186,8 +186,9 @@ flex-direction: column;
     display: block;
     padding: 10px 22px;
 
+}
 
-    
+   
 .picture {
     display: flex;
     justify-content: center;
@@ -198,19 +199,13 @@ flex-direction: column;
 } 
 
 
-
 /* city icons*/
-
-
-
-
 .pop {
     color: white;
     text-align: center;
     font-size: 30px;
     padding: 30px;
 }
-
 .cities {
     display: flex;
     flex-direction: row;
@@ -218,7 +213,6 @@ flex-direction: column;
     width: 100%;
     justify-content: center;
 }
-
 .cities h2 {
     background: rgb(0,0,0);
     /* background: rgba(255, 254, 254, 0.685);
@@ -233,23 +227,18 @@ flex-direction: column;
     border: gray;
     border-width: 5px;
 }
-
-
 .cities a {
     color: white;
 }
 .cities a:hover {
     text-decoration: underline;
-
     color: #0088a9;
-    
+
 }
 
 .cities img {
     padding: 20px;
 }
-
-
 /*london*/
 .londonhome {
     position: relative;
@@ -264,38 +253,20 @@ flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-/* text decoration none for "a" */
-.londonhome h2 a {
-    text-decoration: none;
-    color: #ffffff;
-
-}
-/* berlin */
+/* madrid */
  
-
 .berlinhome {
-
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center
 }
  
-
 .berlinhome > h2 {
-
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-/* text decoration none for "a" */
-.berlinhome h2 a {
-    text-decoration: none;
-    color: #ffffff;
-
 }
  
 /* budapest */
@@ -313,13 +284,6 @@ flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-/* text decoration none for "a" */
-.budahome h2 a {
-    text-decoration: none;
-    color: #ffffff;
-
-}
  
 /* cologne */
 .colognehome {
@@ -335,12 +299,7 @@ flex-direction: column;
     align-items: center;
     justify-content: center;
 }
- /* text decoration none for "a" */
-.colognehome h2 a {
-    text-decoration: none;
-    color: #ffffff;
-
-}
+ 
 /* Amsterdam */
  
 .amhome {
@@ -356,39 +315,21 @@ flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-/* text decoration none for "a" */
-.amhome h2 a {
-    text-decoration: none;
-    color: #ffffff;
-
-}
-
 /* oslo */
  
 .oslohome {
-
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center
 }
  
-
 .oslohome > h2 {
-
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-/* text decoration none for "a" */
-.oslohome h2 a {
-    text-decoration: none;
-    color: #ffffff;
-
-}
-
  
 /* map */
 .inspire {
@@ -408,16 +349,11 @@ flex-direction: column;
     padding: 5px 0 10px 0;
     line-height: 25px;
 }
-
 .map img {
     margin-top: 30px;
     margin-left: 200px;
-    cursor: pointer;
 }
-
-
 /* footer */
-
 .footerlinks {
     background-color: rgba(0, 136, 169, 0.8);
     font-size: 15px;
@@ -427,17 +363,13 @@ flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin: 10px;
-
 }
-
 .foot a {
     color: white;
 }
 .foot:hover a {
     color: lightblue; 
 }
-
-
 .social {
     display: flex;
     flex-direction: row;
@@ -446,4 +378,3 @@ flex-direction: column;
     align-items: center;
     padding: 10px;
 }
-
