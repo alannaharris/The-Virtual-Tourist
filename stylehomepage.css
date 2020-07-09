@@ -33,18 +33,19 @@
 }
 
 .menu ul {
-    display: inline-flex;
-    margin: 50px;
-    padding-left: 75px; 
-    float: right;
-  
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+    background: rgb(0, 136, 169, 0.8);
+    
+
 }
 
 .menu ul li {
     list-style: none;
-    float:right;
-    margin: 0 20px;
-    color: #ffffff;
     cursor: pointer;
     font-size: 18px;
     line-height: 40px;
@@ -59,59 +60,86 @@
 }
 
 .ul__links li a:hover {
-    color: #0088a9;     
+    /* color: #0088a9;      */
+    color:lightblue;
+    text-decoration: underline;
 }
 
-a.active, a:hover{
-    transition: .5s;
-    color: #0088a9;
+/* nav dropdown menus */
+
+.dropnav {
+    position: relative;
+    display: inline-block;
+
 }
 
-.page-name ul {
-    display: inline-flex, right;
-    margin: 50px;
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    padding: 20px;
+    z-index: 1;
+
+}
+
+.dropnav:hover .dropcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
 }
 
 
+.dropcontent a {
+    color: rgb(0, 136, 169, 0.8);
+    padding: 20px;
+}
 
-.page-name ul li {
+.drop {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.drop:hover a {
+    background-color: lightblue;
+    width: 100%;
+    
+}
+
+
+/* page name*/
+
+.pagename ul li {
     list-style: none;
     float: left;
-    margin: 0 20px;
-
-    
-    
+    color: #ffffff;
+    cursor: pointer;
 }
 
-.logo img {
-    align-items: flex-start;
-    margin-right: 120px;
-}
-.name {
+
+.name{
     display: inline;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    font-weight: bold;
+
 }
 
 .banner{
     color: #ffffff;
-    display: inline-flex;
-    justify-content: center;
-    align-items: flex-start;
-}
 
-
-.picture {
     display: flex;
-    width: 100%;
-    margin-top: -100px;
-    margin-left: 350px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .text {
-margin-top: 60px;
-margin-left: 150px;
+margin-top: 20px;
+text-align: center;
+display: flex;
+justify-items: center;
+align-items: center;
+flex-direction: column;
 }
 
 .text h1 {
@@ -129,7 +157,6 @@ margin-left: 150px;
 
 
 .subscribe-btn {
-    position: absolute;
     text-decoration: none;
     color: #ffffff;
     border: 2px solid transparent;
@@ -149,7 +176,6 @@ margin-left: 150px;
 }
 
 .subscribe-btn {
-    margin-right: 50px;
     transition: all 0.3s ease 0s;
 }
 
@@ -160,6 +186,14 @@ margin-left: 150px;
 .subscribe-btn span {
     display: block;
     padding: 10px 22px;
+
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
 
 }
 
@@ -186,7 +220,6 @@ margin-left: 150px;
     /* background: rgba(255, 254, 254, 0.685);
     color: black; */
     background: rgba(0, 0, 1, 0.5);
-    color: white;
     width: 100%;
     font-size: 50px;
     display: flex;
@@ -197,14 +230,21 @@ margin-left: 150px;
     border-width: 5px;
 }
 
-.cities h2:hover {
-    text-decoration: none;
+
+.cities a {
+    color: white;
+}
+.cities a:hover {
+    text-decoration: underline;
+
     color: #0088a9;
+    
 }
 
 .cities img {
     padding: 20px;
 }
+
 
 /*london*/
 .londonhome {
@@ -229,14 +269,18 @@ margin-left: 150px;
 }
 /* Oslo */
  
-.oslohome {
+
+.berlinhome {
+
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center
 }
  
-.oslohome > h2 {
+
+.berlinhome > h2 {
+
     position: absolute;
     display: flex;
     align-items: center;
@@ -308,23 +352,21 @@ margin-left: 150px;
     align-items: center;
     justify-content: center;
 }
-/* text decoration none for "a" */
-.amhome h2 a {
-    text-decoration: none;
-    color: #ffffff;
 
-}
+
+/* oslo */
  
-/* Berlin*/
- 
-.berlinhome {
+.oslohome {
+
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center
 }
  
-.berlinhome > h2 {
+
+.oslohome > h2 {
+
     position: absolute;
     display: flex;
     align-items: center;
@@ -361,5 +403,37 @@ margin-left: 150px;
     margin-top: 30px;
     margin-left: 200px;
     cursor: pointer;
+}
+
+
+/* footer */
+
+.footerlinks {
+    background-color: rgba(0, 136, 169, 0.8);
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.foot a {
+    color: white;
+}
+.foot:hover a {
+    color: lightblue; 
+}
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
