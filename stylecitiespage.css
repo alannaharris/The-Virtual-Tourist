@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -39,6 +40,7 @@
     margin: 0 20px;
     color: #ffffff;
     cursor: pointer;
+    font-size: 18px;
 }
 
 
@@ -65,7 +67,7 @@
 
 .subscribe-btn {
     top: 40px;
-    right: 80px;
+    right: 20px;
     position: absolute;
     text-decoration: none;
     color: #ffffff;
@@ -142,7 +144,7 @@
 
 /* adding "a" here*/
 .cities h2 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: #0088a9;
 }
 
