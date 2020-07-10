@@ -29,45 +29,25 @@
     background:lightblue;
 }
 
-.menu ul {
-    display: inline-flex;
-    margin: 50px;
-}
+/* Nav bar start */
 
-.menu ul li {
+.navbar {
     list-style: none;
-    float: right;
-    margin: 0 20px;
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 18px;
+    background-color: rgb(0, 136, 169, 0.8);
+    width: 100%;
 }
 
-
-.ul_links li a{
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    color: #ffffff;
+.navbar a {
+    color: white;
 }
 
-.ul_links li a:hover {
-    color: #0088a9;
+.item:hover a {
+    text-decoration: underline;
+    color: white
+
 }
 
-
-.logo img {
-    float: left;
-    margin-top: -7px; 
-    margin-right: 48px;
-    margin-left: 50px;
-}
-
-.subscribe-btn {
-    top: 40px;
-    right: 20px;
-    position: absolute;
-    text-decoration: none;
-    color: #ffffff;
+.sub {
     border: 2px solid transparent;
     border-radius: 20px;
     background-image: linear-gradient(#ADD8E6,#ADD8E6), radial-gradient(circle at top left,#00008B,#008B8B);
@@ -75,20 +55,61 @@
     background-clip: content-box, border-box;
 }
 
-
-.subscribe-btn {
-    margin-right: 50px;
-    transition: all 0.3s ease 0s;
-}  
-
-.subscribe-btn:hover{
-    background-color: rgba(0, 136, 169, 0.8);
+.sub a {
+    padding: 20px;
 }
 
-.subscribe-btn span {
-    display: block;
-    padding: 10px 22px;
+.sub:hover {
+    background-color: rgb(0, 136, 169, 0.8);
 }
+
+
+
+
+/* nav dropdown menus */
+
+.dropnav {
+    position: relative;
+    display: inline-block;
+
+} 
+
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    padding: 20px;
+    z-index: 1;
+
+}
+
+.dropnav:hover .dropcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+
+.dropcontent a {
+    color: rgb(0, 136, 169, 0.8);
+    padding: 20px;
+}
+
+.drop {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.drop:hover a {
+    background-color: lightblue;
+    width: 100%;
+    
+}
+
+/* end of Nav styling */
+
 
 /* header */
 
