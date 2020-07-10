@@ -32,38 +32,42 @@
     background:lightblue;
 }
 
-.menu ul {
+/* Nav bar start */
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 40px;
-    background: rgb(0, 136, 169, 0.8);
-    
-
-}
-
-.menu ul li {
+.navbar {
     list-style: none;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 40px;
-
+    background-color: rgb(0, 136, 169, 0.8);
+    width: 100%;
 }
 
-
-.ul__links li a {
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    color: #ffffff;   
+.navbar a {
+    color: white;
 }
 
-.ul__links li a:hover {
-    /* color: #0088a9;      */
-    color:lightblue;
+.item:hover a {
     text-decoration: underline;
+    color: white
+
 }
+
+.sub {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#ADD8E6,#ADD8E6), radial-gradient(circle at top left,#00008B,#008B8B);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.sub a {
+    padding: 20px;
+}
+
+.sub:hover {
+    background-color: rgb(0, 136, 169, 0.8);
+}
+
+
+
 
 /* nav dropdown menus */
 
@@ -71,13 +75,13 @@
     position: relative;
     display: inline-block;
 
-}
+} 
 
 .dropcontent {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 160px;
+    min-width: 100px;
     padding: 20px;
     z-index: 1;
 
@@ -108,14 +112,7 @@
 }
 
 
-/* page name*/
-
-.pagename ul li {
-    list-style: none;
-    float: left;
-    color: #ffffff;
-    cursor: pointer;
-}
+/* Nav bar end */
 
 
 .name{
@@ -161,33 +158,6 @@ flex-direction: column;
 }
 
 
-.subscribe-btn {
-    /* position: absolute */
-    text-decoration: none;
-    color: #ffffff;
-    border: 2px solid transparent;
-    border-radius: 20px;
-    background-image: linear-gradient(#ADD8E6,#ADD8E6), radial-gradient(circle at top left,#00008B,#008B8B);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-}
-
-
-
-.subscribe-btn {
-    transition: all 0.3s ease 0s;
-}
-
-.subscribe-btn:hover{
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
-.subscribe-btn span {
-    display: block;
-    padding: 10px 22px;
-
-}
-
    
 .picture {
     display: flex;
@@ -212,20 +182,17 @@ flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 .cities h2 {
     background: rgb(0,0,0);
-    /* background: rgba(255, 254, 254, 0.685);
-    color: black; */
     background: rgba(0, 0, 1, 0.5);
-    width: 100%;
+    width: 90%;
+    padding: 5px;
     font-size: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 90%;
-    border: gray;
-    border-width: 5px;
 }
 .cities a {
     color: white;
@@ -259,7 +226,7 @@ flex-direction: column;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
  
 .berlinhome > h2 {
@@ -275,7 +242,7 @@ flex-direction: column;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
  
 .budahome > h2 {
@@ -290,7 +257,7 @@ flex-direction: column;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
  
 .colognehome > h2 {
@@ -306,7 +273,7 @@ flex-direction: column;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
  
 .amhome > h2 {
@@ -321,7 +288,7 @@ flex-direction: column;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
  
 .oslohome > h2 {
