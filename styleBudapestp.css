@@ -97,11 +97,9 @@
     width: 100%;
     text-align: center;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     margin-bottom: 40px;
-    /* align-items: flex-end;
-    justify-content: left; */
 } 
 
 .head img {
@@ -109,10 +107,10 @@
     margin-top: 40px;
 }
 
-.head h1 {
+.head p {
     position: relative;
     width: 100%;
-    margin-bottom: 30px;
+    margin: 80px;
 } 
 
 /* intro video */
@@ -156,7 +154,7 @@
 
 .site {
     text-align: center;
-    color: black;
+    color: white;
     padding: 20px;
     margin-top: 40px;
 
@@ -239,38 +237,79 @@
     background-clip: content-box, border-box; 
 }
 
-.backbtn a {
-    padding: 20px;
+/* back button */
+
+.btn-block{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.footerlinks {
-    background-color: rgba(0, 136, 169, 0.8);
-    font-size: 15px;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 10px;
-
-}
-
-.foot a {
+.btn-block a {
     color: white;
 }
-.foot:hover a {
-    color: lightblue; 
+
+
+/* Footer styling */
+.footer {
+    width: 100vw;
+   display: block;
+   overflow: hidden;
+   padding: 50px 0;
+   box-sizing: border-box;
+   background-color:  rgba(0, 136, 169, 0.8);
 }
 
-
-.social {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+.innerfooter {
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
 }
 
+.innerfooter .logo-container {
+    float: left;
+    height: 100%;
+    display: block;
+}
 
+.innerfooter .logo-container img{
+    width: 100%;
+    height:auto;
+}
+
+.innerfooter .footer-third {
+    width: calc(21.6666666667% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+.innerfooter .footer-third:last-child{
+    margin-right: 0px;
+}
+
+.innerfooter .footer-third h1{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.innerfooter .footer-third a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    font-weight: 100px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.innerfooter .footer-third li{
+    display:inline-flex;
+}
 
