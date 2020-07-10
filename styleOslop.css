@@ -277,6 +277,14 @@ h2 {
 
 }
 
+.carousel {
+    width: 100%;
+    height: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 70px;
+
+}
 
 .btn-block{
     padding-bottom: 20px;
