@@ -64,10 +64,6 @@
 }
 
 
-
-
-/* nav dropdown menus */
-
 .dropnav {
     position: relative;
     display: inline-block;
@@ -108,41 +104,8 @@
     
 }
 
+/* end of Nav styling */
 
-.logo img {
-    float: left;
-    margin-top: -7px; 
-    margin-right: 48px;
-    margin-left: 50px;
-}
-
-.subscribe-btn {
-    top: 40px;
-    right: 20px;
-    position: absolute;
-    text-decoration: none;
-    color: #ffffff;
-    border: 2px solid transparent;
-    border-radius: 20px;
-    background-image: linear-gradient(#ADD8E6,#ADD8E6), radial-gradient(circle at top left,#00008B,#008B8B);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-}
-
-
-.subscribe-btn {
-    margin-right: 50px;
-    transition: all 0.3s ease 0s;
-}  
-
-.subscribe-btn:hover{
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
-.subscribe-btn span {
-    display: block;
-    padding: 10px 22px;
-}
 
 
 /* header */
