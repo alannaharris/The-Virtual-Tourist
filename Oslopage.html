@@ -18,52 +18,46 @@
         
         <link href="styleOslop.css" rel="stylesheet">
 
+         <!-- Our custom JS -->
+         <script src="scrolltopjs.js"></script>
+
 
     </head>
 <body class="main">
-    <div class="container">
-      
-        <div class="menu">
 
-             <!--<ul class="ul_links">
 
-                <li class="logo"><img src="Globe and title.gif"></li>
-                <li> <a href="index.html">Home</a></li>
-                <li> <a href="citiespage.html">Cities</a></li>
-                <li> <a href="mapepage.html">Map</a></li>
-                <li> <a href="Aboutpage.html">About</a></li>
-                <li> <a href="Contactpage.html">Contact</a></li>
-                <li><a href="subscribe.html" class="subscribe-btn"><span>Subscribe</span></a></li>
-            </ul> -->
-            <ul class="ul__links"> 
+     <!-- Nav bar section -->
+     <div class="container">
 
-              <li> <a href="index.html">Home</a></li>
-              <div class="dropnav">
-                  <li> <a href="citiespage.html">Cities</a></li>
-                  <div class="dropcontent">
-                      <div class="drop"><a href="Amsterdampage.html">Amsterdam</a></li> </div>
-                      <div class="drop"><a href="Berlinpage.html">Berlin</a></li> </div>
-                      <div class="drop"><a href="Budapestpage.html">Budapest</a></li></div>
-                      <div class="drop"><a href="Colognepage.html">Cologne</a></li></div>
-                      <div class="drop"><a href="Londonpage.html">London</a></li></div>
-                      <div class="drop"><a href="Oslopage.html">Oslo</a></li></div>
-                  </div>
-              </div>    
-              <div class="pagename"><li class="logo"><img src="globe.gif" height="60px"></li></div>
-              <li> <a href="mapepage.html">Map</a></li>
-              <div class="dropnav">
-                  <li> <a href="Aboutpage.html">About</a></li>
-                  <div class="dropcontent">
-                      <div class="drop"><a href="Aboutpage.html">About Us</a></li></div>
-                      <div class="drop"> <a href="Contactpage.html">Contact</a></li></div>
-                      <div class="drop"><a href="subscribe.html">Subscribe</a></li></div>
-                  </div> 
-              </div>    
-              
-       
-          </ul>
-      </div>
+      <ul class="navbar">
+          <li class="item"> <img src="Globe and title.gif" height="50px"></li>
+          <li class="item"> <a href="index.html">Home</a></li>
+          <div class="dropnav">
+              <li class="item"> <a href="citiespage.html">Cities</a></li>
+              <div class="dropcontent">
+                  <div class="drop"><a href="Amsterdampage.html">Amsterdam</a></li> </div>
+                  <div class="drop"><a href="Berlinpage.html">Berlin</a></li> </div>
+                  <div class="drop"><a href="Budapestpage.html">Budapest</a></li></div>
+                  <div class="drop"><a href="Colognepage.html">Cologne</a></li></div>
+                  <div class="drop"><a href="Londonpage.html">London</a></li></div>
+                  <div class="drop"><a href="Oslopage.html">Oslo</a></li></div>
+              </div>
+          </div>
+          <li class="item"><a href="mapepage.html">Map</a></li>
+          <div class="dropnav">
+              <li class="item"> <a href="Aboutpage.html">About</a></li>
+              <div class="dropcontent">
+                  <div class="drop"><a href="Aboutpage.html">About Us</a></li></div>
+                  <div class="drop"> <a href="Contactpage.html">Contact</a></li></div>
+                  <div class="drop"><a href="subscribe.html">Subscribe</a></li></div>
+              </div> 
+          </div>
+          <li class="sub"><a href="subscribe.html">Subscribe</a></li>
+      </ul>
+
   </div>
+
+  <!-- end of navbar section -->
 
     
 <div class="head">
@@ -333,11 +327,16 @@
 
 </article>
    
+<!-- BACK TO CITY PAGE BUTTON -->
 
-<div class="btn-block">
-  <button type="button" class="btn btn-primary btn-lg btn-block">Choose another city to visit</button>
-</div>
+    <div class="btn-block">
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="back-button"><a href="citiespage.html">Choose another city to visit</a></button>
+    </div>
 
+
+    <!-- SCROLL TO TOP BUTTON -->
+
+    <button class="btn btn-primary" onclick="topFunction()" id="go-top-button" title="Go to top">Go to top</button>
 
 
 </body>
