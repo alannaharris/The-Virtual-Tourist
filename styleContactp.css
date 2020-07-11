@@ -33,49 +33,54 @@
     background:lightblue;
 }
 
-/* potential nav bar */
 
-.menu ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 40px;
-    background: rgb(0, 136, 169, 0.8);
-    
-}
 
-.menu ul li {
+/* Nav bar start */
+
+.navbar {
     list-style: none;
-    cursor: pointer;
+    background-color: rgb(0, 136, 169, 0.8);
+    width: 100%;
 }
 
-
-.ul__links li a {
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    color: #ffffff;   
+.navbar a {
+    color: white;
 }
 
-.ul__links li a:hover {
-    /* color: #0088a9;      */
-    color:lightblue;
+.item:hover a {
     text-decoration: underline;
+    color: white
+
 }
 
-/* nav dropdown menus */
+.sub {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#ADD8E6,#ADD8E6), radial-gradient(circle at top left,#00008B,#008B8B);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.sub a {
+    padding: 20px;
+}
+
+.sub:hover a{
+    color: rgb(0, 136, 169, 0.8);
+}
+
 
 .dropnav {
     position: relative;
     display: inline-block;
 
-}
+} 
 
 .dropcontent {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 160px;
+    min-width: 100px;
     padding: 20px;
     z-index: 1;
 
@@ -87,6 +92,7 @@
     justify-content: left;
     align-items: left;
 }
+
 
 .dropcontent a {
     color: rgb(0, 136, 169, 0.8);
@@ -104,211 +110,7 @@
     
 }
 
-
-/* end of potential nav bar */
-
-/* .menu ul {
-    display: inline-flex;
-    margin: 50px;
-}
-
-.menu ul li {
-    list-style: none;
-    float: right;
-    margin: 0 20px;
-    color: #ffffff;
-    cursor: pointer;
-
-} */
-
-
-
-/* .ul_links li a{
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.ul_links li a:hover {
-    color: #0088a9;
-} */
-
-
-
-/*
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-
-nav{
-    background: #add8e6;
-    height: 100%;
-    width: 100%;
-}
-
-.main {
-    background-color:#add8e6;
-    font-family: Marriweather, sans-serif;
-}
-
-
-.container {
-    width: 100%;
-    height: 100%;
-   
-} 
-
-nav ul{
-    margin-top: 40px;
-    margin-right: 10px;
-    padding: 10px;
-}
-
-nav ul li{
-    /*display: inline-block;
-    display: inline-flex;
-   
-    
-
-}
-
-nav ul li a {
-color: #ffffff;
-font-size: 18px;
-padding: 10px 10px;
-margin: 0 10px;
-/*border-radius: 20px;*/
-/*border-radius: 40%;*/
-/*text-transform: uppercase;
-cursor: pointer;
-}
-
-/*
-a.active, a:hover{
-    background: rgb(78, 178, 240);
-    transition: .5s;
-}
-
-a:hover{
-    color: #0088a9;;
-}
-
-.checkbtn{
-    font-size: 30px;
-    color:#ffffff;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-#check{
-    display: none;
-}
-
-@media (max-width:952px){
-    
- nav label.logo img {
-    padding-left: 50px;
-    
-
-
-  }
-
-  nav ul li a{
-    font-size:16px ;
-  }
-
-}
-
-
-@media (max-width: 858px){
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background:#dfec46 ;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-       display: block;
-       margin: 50px 0;
-       line-height: 30px;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    a:hover,a.active{
-        background: none;
-        color:rgb(82, 168, 221);
-    }
-    #check:checked ~ ul{
-        left: 0;
-    }
-    .contact-section h1{
-        text-align: center;
-        font-size: 20px;
-    }
-    
-}
-*/
-
-
-
-
-/*Logo img*/
-
-label.logo img {
-    align-items: flex-start;
-    float: left;
-    line-height: 40px;
-    padding: 0 100px;
-    margin-right: 40px;
-    margin-left: 50px;
-    margin-top: 10px;
-}
-
-
-.subscribe-btn {
-    top: 40px;
-    right: 20px;
-    position: absolute;
-    text-decoration: none;
-    color: #ffffff;
-    border: 2px solid transparent;
-    border-radius: 20px;
-    background-image: linear-gradient(#ADD8E6,#ADD8E6), radial-gradient(circle at top left,#00008B,#008B8B);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-}
-
-.subscribe-btn {
-    margin-right: 30px;
-    float: right;
-    transition: all 0.3s ease 0s;
-}  
-
-.subscribe-btn:hover{
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
-.subscribe-btn span {
-    display: block;
-    padding: 10px 22px;
-}
+/* end of Nav styling */
 
 
 

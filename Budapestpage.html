@@ -14,7 +14,8 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-        
+        <!-- Our custom JS -->
+        <script src="scrolltopjs.js"></script>
             
 
     </head>
@@ -357,9 +358,16 @@
 
     </article>
 
-    <div class="btn-block">
-        <button type="button" class="btn btn-primary btn-lg btn-block"><a href="citiespage.html">Choose another city to visit</a></button>
+     <!-- BACK TO CITY PAGE BUTTON -->
+
+     <div class="btn-block">
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="back-button"><a href="citiespage.html">Choose another city to visit</a></button>
     </div>
+
+
+    <!-- SCROLL TO TOP BUTTON -->
+
+    <button class="btn btn-primary" onclick="topFunction()" id="go-top-button" title="Go to top">Go to top</button>
 
 </body>
 
