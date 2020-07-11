@@ -139,7 +139,7 @@
     margin-right: 48px;
     margin-left: 50px;
 }
-
+/*
 .subscribe-btn {
     top: 40px;
     right: 20px;
@@ -168,32 +168,37 @@
     padding: 10px 22px;
 }
 
-/*styling berlin image */
-.responsive {
+
+
+/*header*/
+
+.head {
     color: white;
     font-size: 70px;
-    height: 600px;
+    height: 400px;
     width: 100%;
     text-align: center;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    margin-bottom: 40px; 
-   
-}
+    margin-bottom: 40px;
+} 
 
-/*
-.responsive image{
+.head img {
     position: absolute;
     margin-top: 40px;
 }
-/* text*/
 
-.bigtext {
-position: absolute;
-width: 100%;
-margin-bottom: 30px;
-}
+.head p {
+    position: relative;
+    width: 100%;
+    margin: 80px;
+} 
+
+
+
+
+/* video*/
 
 .video{
     display: flex;
@@ -201,7 +206,7 @@ margin-bottom: 30px;
     align-items: center;
 }
 
-
+/*h2 title*/
 h2 {
     color: white;
     text-align: center;
@@ -246,10 +251,11 @@ h2 {
     letter-spacing: 0.8px;
     line-height: 1.8;
     font-size: 17px;
+    font-family: Merriweather, serif;
 
 
 }
-
+/*
 .image{
     text-align: center;
     padding-left: 50px;
@@ -258,10 +264,6 @@ h2 {
     
     }
 
-    
-    
-
-    
 .body-intro{
     display: inline-block;
     color: rgb(41, 40, 40);
@@ -276,7 +278,23 @@ h2 {
     font-size: 20px;
 
 }
+*/
 
+.body-intro p{
+    display: inline-block;
+    color: rgb(41, 40, 40);
+    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
+    flex-direction: column;
+    justify-content:center;
+    letter-spacing: 0.8px;
+    line-height: 1.8;
+    font-family: Merriweather, serif;
+    font-size: 16px;
+}
 
 .carousel {
     width: 100%;

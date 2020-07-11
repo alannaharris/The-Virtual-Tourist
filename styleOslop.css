@@ -168,32 +168,7 @@
 }
 
 
-/*styling Oslo image */
-/*
-.head {
-    color: white;
-    font-size: 70px;
-    height: 600px;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-bottom: 40px; 
-} 
 
-.head image{
-    position: absolute;
-    margin-top: 40px;
-}
-
-.head p {
-    position: absolute;
-    width: 100%;
-    margin-bottom: 30px;
-    
-    }
-*/
 
 /*header*/
 
@@ -229,7 +204,7 @@
     align-items: center;
 }
 
-
+/*h2 title*/
 h2 {
     color: white;
     text-align: center;
