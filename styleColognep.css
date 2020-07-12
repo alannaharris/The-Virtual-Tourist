@@ -21,6 +21,9 @@
     }
 }
 
+
+/* page styling start */
+
 .main {
     background-color: lightblue;
 }
@@ -193,8 +196,9 @@
     color: white;
     padding: 20px;
     margin-top: 40px;
-
+   
 }
+
 
 .cath {
     display: flex;
@@ -230,6 +234,16 @@
 }
 
 /* park images */
+
+.parkinfo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: black;
+}
 
 .parks {
     display: flex;
