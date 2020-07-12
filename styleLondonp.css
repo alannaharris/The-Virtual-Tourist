@@ -188,21 +188,29 @@ h2 {
     letter-spacing: 0.8px;
     line-height: 1.8;
     font-size: 17px;
-
+    font-family: Merriweather, serif;
 
 }
 
-.image{
-    text-align: center;
-    padding-left: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
     
+    /*intro text */
+
+    .body-intro p{
+        display: inline-block;
+        color: rgb(41, 40, 40);
+        padding-bottom: 50px;
+        padding-top: 80px;
+        padding-left: 200px;
+        padding-right: 200px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        letter-spacing: 0.8px;
+        line-height: 1.8;
+        font-family: Merriweather, serif;
+        font-size: 20px;
     }
-
-    
-    
-
+    /*
     
 .body-intro{
     display: inline-block;
@@ -215,9 +223,11 @@ h2 {
     letter-spacing: 0.8px;
     line-height: 1.8;
     font-family: Merriweather, serif;
-    font-size: 20px;
+    font-size: 16px;
 
 }
+*/
+
 
 .carousel {
     width: 100%;
