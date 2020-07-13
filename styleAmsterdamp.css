@@ -20,54 +20,39 @@
     }
 }
 
+
 .main {
     background-color: lightblue;
 }
+
 .container {
     width: 100%;
     height: 100%;
     background:lightblue;
 }
 
-.menu ul {
-    display: inline-flex;
-    margin: 50px;
-}
 
-.menu ul li {
+
+/* Nav bar start */
+
+.navbar {
     list-style: none;
-    float: right;
-    margin: 0 20px;
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 18px;
+    background-color: rgba(0, 136, 169, 0.8);
+    width: 100%;
+    
 }
 
-
-.ul_links li a{
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    color: #ffffff;
+.navbar a {
+    color: white;
 }
 
-.ul_links li a:hover {
-    color: #0088a9;
+.item:hover a {
+    text-decoration: underline;
+    color: white
+
 }
 
-
-.logo img {
-    float: left;
-    margin-top: -7px; 
-    margin-right: 48px;
-    margin-left: 50px;
-}
-
-.subscribe-btn {
-    top: 40px;
-    right: 20px;
-    position: absolute;
-    text-decoration: none;
-    color: #ffffff;
+.sub {
     border: 2px solid transparent;
     border-radius: 20px;
     background-image: linear-gradient(#ADD8E6,#ADD8E6), radial-gradient(circle at top left,#00008B,#008B8B);
@@ -75,17 +60,285 @@
     background-clip: content-box, border-box;
 }
 
-
-.subscribe-btn {
-    margin-right: 50px;
-    transition: all 0.3s ease 0s;
-}  
-
-.subscribe-btn:hover{
-    background-color: rgba(0, 136, 169, 0.8);
+.sub a {
+    padding: 20px;
 }
 
-.subscribe-btn span {
+.sub:hover a {
+    color: rgb(0, 136, 169, 0.8);
+}
+
+
+.dropnav {
+    position: relative;
+    display: inline-block;
+
+} 
+
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    padding: 20px;
+    z-index: 1;
+
+}
+
+.dropnav:hover .dropcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+
+.dropcontent a {
+    color: rgb(0, 136, 169, 0.8);
+    padding: 20px;
+}
+
+.drop {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.drop:hover a {
+    background-color: lightblue;
+    width: 100%;
+    
+}
+
+/* end of Nav styling */
+
+
+
+
+/*header*/
+
+.head {
+    color: white;
+    font-size: 70px;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 40px;
+} 
+
+.head img {
+    position: absolute;
+    margin-top: 40px;
+}
+
+.head p {
+    position: relative;
+    width: 100%;
+    margin: 80px;
+    
+} 
+
+
+/*video*/
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*h2 title*/
+h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: serif;
+}
+
+
+.flex-item{
+    display: flex;
+    /*flex-flow: row nowrap;*/
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 50px;
+    
+}
+
+.body-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+
+.body-item p{
+    display: flex;
+    text-align: justify;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 450px;
+    color: rgb(41, 40, 40);
+    background: white;
+    letter-spacing: 0.8px;
+    line-height: 1.8;
+    font-size: 17px;
+    font-family: Merriweather, serif;
+
+
+}
+
+
+
+
+.body-intro p{
+    display: inline-block;
+    color: rgb(41, 40, 40);
+    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 0.8px;
+    line-height: 1.8;
+    font-family: Merriweather, serif;
+    font-size: 20px;
+}
+
+.carousel {
+    width: 100%;
+    height: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 70px;
+
+}
+/* back button */
+
+.backbtn {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#ADD8E6,#ADD8E6), radial-gradient(circle at top left,#00008B,#008B8B);
+    background-origin: border-box;
+    background-clip: content-box, border-box; 
+}
+
+
+
+.btn-block{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-block a {
+    color: black;
+}
+
+#back-button {
+    width: 400px;
+    height: 60px;
+    background: rgb(0,0,0);
+    background: rgba(255, 254, 254, 0.685);
+    border: none;
+}
+
+/* go to top button */
+
+#go-top-button {
+    width: 100px;
+    height: 50px;
+    display: none;  /* Hidden by default */
+    position: fixed;  /* Fixed/sticky position */
+    bottom: 20px;  /* Place the button 20px from the bottom of the page */
+    right: 30px;  /* Place the button 30px from the right */
+    z-index: 99;  /* Make sure it does not overlap */
+    background: rgb(0,0,0);
+    background: rgba(255, 254, 254, 0.685);
+    color: black;
+    border: none;
+}
+
+
+/* Footer styling */
+.footer {
+    width: 100vw;
+   display: block;
+   overflow: hidden;
+   padding: 50px 0;
+   box-sizing: border-box;
+   background-color:  rgba(0, 136, 169, 0.8);
+}
+
+.innerfooter {
     display: block;
-    padding: 10px 22px;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
 }
+
+.innerfooter .logo-container {
+    float: left;
+    height: 100%;
+    display: block;
+}
+
+.innerfooter .logo-container img{
+    width: 100%;
+    height:auto;
+}
+
+.innerfooter .footer-third {
+    width: calc(21.6666666667% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+.innerfooter .footer-third:last-child{
+    margin-right: 0px;
+}
+
+.innerfooter .footer-third h1{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.innerfooter .footer-third a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    font-weight: 100px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+
+.innerfooter .footer-third li{
+    display:inline-flex;
+}
+
