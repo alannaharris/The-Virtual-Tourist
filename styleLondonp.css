@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
+
 
 @media only screen and (max-width: 700px){
     .responsive {
@@ -24,6 +24,7 @@
 .main {
     background-color: lightblue;
 }
+
 .container {
     width: 100%;
     height: 100%;
@@ -31,12 +32,14 @@
 }
 
 
+
 /* Nav bar start */
 
 .navbar {
     list-style: none;
-    background-color: rgb(0, 136, 169, 0.8);
+    background-color: rgba(0, 136, 169, 0.8);
     width: 100%;
+    
 }
 
 .navbar a {
@@ -109,6 +112,8 @@
 /* end of Nav styling */
 
 
+
+
 /*header*/
 
 .head {
@@ -132,9 +137,11 @@
     position: relative;
     width: 100%;
     margin: 80px;
+    
 } 
 
-/* video*/
+
+/*video*/
 
 .video{
     display: flex;
@@ -142,9 +149,7 @@
     align-items: center;
 }
 
-
 /*h2 title*/
-
 h2 {
     color: white;
     text-align: center;
@@ -170,7 +175,8 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-      
+    
+    
 }
 
 
@@ -190,44 +196,27 @@ h2 {
     font-size: 17px;
     font-family: Merriweather, serif;
 
+
 }
 
-    
-    /*intro text */
 
-    .body-intro p{
-        display: inline-block;
-        color: rgb(41, 40, 40);
-        padding-bottom: 50px;
-        padding-top: 80px;
-        padding-left: 200px;
-        padding-right: 200px;
-        text-align: center;
-        flex-direction: column;
-        justify-content: center;
-        letter-spacing: 0.8px;
-        line-height: 1.8;
-        font-family: Merriweather, serif;
-        font-size: 20px;
-    }
-    /*
-    
-.body-intro{
+
+
+.body-intro p{
     display: inline-block;
     color: rgb(41, 40, 40);
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-left: 200px;
     padding-right: 200px;
-    text-align: justify;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
     letter-spacing: 0.8px;
     line-height: 1.8;
     font-family: Merriweather, serif;
-    font-size: 16px;
-
+    font-size: 20px;
 }
-*/
-
 
 .carousel {
     width: 100%;
@@ -237,11 +226,40 @@ h2 {
     padding-bottom: 70px;
 
 }
+/* back button */
+
+.backbtn {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#ADD8E6,#ADD8E6), radial-gradient(circle at top left,#00008B,#008B8B);
+    background-origin: border-box;
+    background-clip: content-box, border-box; 
+}
+
+
 
 .btn-block{
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-block a {
+    color: black;
+}
+
+#back-button {
+    width: 400px;
+    height: 60px;
+    background: rgb(0,0,0);
+    background: rgba(255, 254, 254, 0.685);
+    border: none;
 }
 
 /* go to top button */
@@ -260,6 +278,8 @@ h2 {
     border: none;
 }
 
+
+/* Footer styling */
 .footer {
     width: 100vw;
    display: block;
@@ -317,6 +337,8 @@ h2 {
     padding-bottom: 5px;
 }
 
+
 .innerfooter .footer-third li{
     display:inline-flex;
 }
+
