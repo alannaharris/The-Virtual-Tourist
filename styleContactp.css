@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
-@@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -116,6 +115,7 @@
 
 
 /* styling Get in touch with us*/
+
 .contact-section{
     margin-top: 60px;
    
@@ -125,7 +125,10 @@
     text-align: center;
     font-size: 30px;
     padding: 80px;
-    font-family: sans-serif;
+    background-color: rgba(0, 136, 169, 0.8);
+    font-family: Merriweather, sans-serif;
+    margin: 0;
+    
     
 }
 

@@ -247,6 +247,17 @@
     justify-content: center;
 }
 
+/*carousel*/
+
+.carousel {
+    width: 100%;
+    height: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 70px;
+
+}
+
 .backbtn {
     margin: 40px;
     display: flex;

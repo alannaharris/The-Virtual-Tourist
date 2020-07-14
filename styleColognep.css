@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -133,6 +134,7 @@
 }
 
 .head p{
+    
     position: relative;
     width: 100%;
     margin: 80px;
@@ -275,6 +277,18 @@
     justify-content: center;
 }
 
+/*carousel*/
+.carousel {
+    width: 100%;
+    height: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 70px;
+
+}
+
+/* back button */
+
 .backbtn {
     margin: 40px;
     display: flex;
@@ -288,7 +302,7 @@
     background-clip: content-box, border-box; 
 }
 
-/* back button */
+
 
 .btn-block{
     margin: 20px;
