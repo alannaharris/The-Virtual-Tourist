@@ -20,6 +20,9 @@
     }
 }
 
+
+
+/* page styling */
 .main {
     background-color: lightblue;
 }
@@ -152,6 +155,8 @@
 
 .citytour p {
     width: 800px;
+    font-family: Merriweather, serif;
+    font-size: 17px;
 }
 
 .intro {
@@ -161,6 +166,7 @@
     justify-content: center;
     align-items: center;
     padding: 40px;
+    
 }
 
 
@@ -173,6 +179,8 @@
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 40px;
+    font-family: Merriweather, serif;
+    font-size: 25px;
 }
 
 .site {
@@ -180,6 +188,8 @@
     color: white;
     padding: 20px;
     margin-top: 40px;
+    font-family: Merriweather, serif;
+    font-size: 25px;
 
 }
 
@@ -200,7 +210,8 @@
 
 
 .sitetext p {
-    font-size: 20px;
+    font-family: Merriweather, serif;
+    font-size: 17px;
     background: rgb(0,0,0);
     background: rgba(255, 254, 254, 0.685);
     color: black;
@@ -230,7 +241,8 @@
     background: rgb(0,0,0);
     background: rgba(255, 254, 254, 0.685);
     padding: 10px;
-
+    font-family: Merriweather, serif;
+    
 }
 
 .p1 {

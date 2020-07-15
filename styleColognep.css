@@ -139,6 +139,7 @@
     width: 100%;
     margin: 80px;
     
+    
 } 
 
 /* intro video */
@@ -160,6 +161,8 @@
 
 .citytour p {
     width: 800px;
+    font-family: Merriweather, serif;
+    font-size: 17px;
 }
 
 .intro {
@@ -169,6 +172,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    
 }
 
 /* intro video */
@@ -189,6 +193,8 @@
     width: 100%;
     padding: 20px;
     margin-top: 40px;
+    font-family: Merriweather, serif;
+    font-size: 25px;
 }
 
 .site {
@@ -196,6 +202,8 @@
     color: white;
     padding: 20px;
     margin-top: 40px;
+    font-family: Merriweather, serif;
+    font-size: 25px;
    
 }
 
@@ -210,7 +218,6 @@
 }
 
 .cathtext {
-    /* position: relative; */
     display: flex;
     align-items:center;
     justify-content: center;
@@ -218,18 +225,18 @@
 
 
 .cathtext p {
-    font-size: 20px;
     background: rgb(0,0,0);
     background: rgba(255, 254, 254, 0.685);
     border: gray;
     color: black;
     display: flex;
-    /* position: absolute; */
     align-items: center;
     justify-content: center;
     width: 450px;
     text-align: center;
     padding: 20px;
+    font-family: Merriweather, serif;
+    font-size: 17px
 
 }
 

@@ -299,8 +299,8 @@
 
 
 
-/* Footer styling */
 
+/* Footer styling */
 .footer {
     width: 100vw;
    display: block;
@@ -358,10 +358,7 @@
     padding-bottom: 5px;
 }
 
-
-
 .innerfooter .footer-third li{
     display:inline-flex;
 }
-
 
