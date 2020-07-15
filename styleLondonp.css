@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -22,23 +21,25 @@
 }
 
 
-/* page styling start */
-
 .main {
     background-color: lightblue;
 }
+
 .container {
     width: 100%;
     height: 100%;
     background:lightblue;
 }
 
+
+
 /* Nav bar start */
 
 .navbar {
     list-style: none;
-    background-color: rgb(0, 136, 169, 0.8);
+    background-color: rgba(0, 136, 169, 0.8);
     width: 100%;
+    
 }
 
 .navbar a {
@@ -112,7 +113,8 @@
 
 
 
-/* header */
+
+/*header*/
 
 .head {
     color: white;
@@ -121,11 +123,9 @@
     width: 100%;
     text-align: center;
     display: flex;
-    /* align-items: center; */
+    align-items: flex-start;
     justify-content: center;
     margin-bottom: 40px;
-    align-items: flex-start;
-    
 } 
 
 .head img {
@@ -133,151 +133,91 @@
     margin-top: 40px;
 }
 
-.head p{
-    
+.head p {
     position: relative;
     width: 100%;
     margin: 80px;
     
 } 
 
-/* intro video */
 
-.video {
+/*video*/
 
+.video{
     display: flex;
     justify-content: center;
     align-items: center;
-
-} 
-
-
-/* page content */
-
-.citytour h2 {
-    padding: 20px;
 }
 
-.citytour p {
-    width: 800px;
-}
-
-.intro {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-/* intro video */
-
-.video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
-
-/* main body */
-
-.section {
-    background: rgb(0,0,0);
-    background: rgba(0, 0, 1, 0.5);
+/*h2 title*/
+h2 {
     color: white;
     text-align: center;
-    width: 100%;
-    padding: 20px;
-    margin-top: 40px;
-}
-
-.site {
-    text-align: center;
-    color: white;
-    padding: 20px;
-    margin-top: 40px;
-   
+    padding-bottom: 30px;
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: serif;
 }
 
 
-.cath {
+.flex-item{
     display: flex;
+    /*flex-flow: row nowrap;*/
     justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
+    padding-bottom: 50px;
+    
 }
 
-.cathtext {
-    /* position: relative; */
+.body-item {
     display: flex;
-    align-items:center;
-    justify-content: center;
-}
-
-
-.cathtext p {
-    font-size: 20px;
-    background: rgb(0,0,0);
-    background: rgba(255, 254, 254, 0.685);
-    border: gray;
-    color: black;
-    display: flex;
-    /* position: absolute; */
     align-items: center;
     justify-content: center;
+    
+    
+}
+
+
+
+.body-item p{
+    display: flex;
+    text-align: justify;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
     width: 450px;
-    text-align: center;
-    padding: 20px;
+    color: rgb(41, 40, 40);
+    background: white;
+    letter-spacing: 0.8px;
+    line-height: 1.8;
+    font-size: 17px;
+    font-family: Merriweather, serif;
+
 
 }
 
-/* park images */
 
-.parkinfo {
+
+
+.body-intro p{
+    display: inline-block;
+    color: rgb(41, 40, 40);
+    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
     text-align: center;
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
-    color: black;
+    letter-spacing: 0.8px;
+    line-height: 1.8;
+    font-family: Merriweather, serif;
+    font-size: 20px;
 }
 
-.parks {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-
-.parks h3 {
-    color: black;
-    background: rgb(0,0,0);
-    background: rgba(255, 254, 254, 0.685);
-    padding: 10px;
-
-}
-
-.p1 {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.p1 h3 {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/*carousel*/
 .carousel {
     width: 100%;
     height: auto;
@@ -286,7 +226,6 @@
     padding-bottom: 70px;
 
 }
-
 /* back button */
 
 .backbtn {
@@ -402,4 +341,3 @@
 .innerfooter .footer-third li{
     display:inline-flex;
 }
-
