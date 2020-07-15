@@ -134,11 +134,17 @@
 
  /* I don't have the map image */
 
+
 .map img{
     margin: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+=======
+.map img {
+    margin-top: 80px;
+    margin: 10px;
 
 }
 
